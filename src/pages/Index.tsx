@@ -18,7 +18,7 @@ const featuredProducts: Product[] = [
     id: 1,
     name: "Organic Bananas",
     price: 0.99,
-    image: "https://images.unsplash.com/photo-1543218024-57a70143c369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+    image: "https://images.unsplash.com/photo-1543218024-57a70143c369?auto=format&fit=crop&w=735&q=80",
     weight: "bunch",
   },
   {
@@ -26,7 +26,7 @@ const featuredProducts: Product[] = [
     name: "Large Avocado",
     price: 2.49,
     originalPrice: 3.29,
-    image: "https://images.unsplash.com/photo-1519162808019-7de1683fa2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1075&q=80",
+    image: "https://images.unsplash.com/photo-1519162808019-7de1683fa2ad?auto=format&fit=crop&w=1075&q=80",
     weight: "each",
     discount: 20,
   },
@@ -34,28 +34,28 @@ const featuredProducts: Product[] = [
     id: 3,
     name: "Strawberries",
     price: 4.99,
-    image: "https://images.unsplash.com/photo-1543158181-e6f9f6712055?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    image: "https://images.unsplash.com/photo-1543158181-e6f9f6712055?auto=format&fit=crop&w=1170&q=80",
     weight: "16 oz",
   },
   {
     id: 4,
     name: "Organic Eggs",
     price: 5.99,
-    image: "https://images.unsplash.com/photo-1489630134608-74e8256815cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
+    image: "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=735&q=80",
     weight: "12 ct",
   },
   {
     id: 5,
     name: "Loaf Bread",
     price: 3.49,
-    image: "https://images.unsplash.com/photo-1598373182133-52452f7691ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    image: "https://images.unsplash.com/photo-1598373182133-52452f7691ef?auto=format&fit=crop&w=1170&q=80",
     weight: "20 oz",
   },
   {
     id: 6,
     name: "Milk",
     price: 3.99,
-    image: "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    image: "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=687&q=80",
     weight: "1 gal",
   },
 ];
@@ -66,7 +66,7 @@ const saleProducts: Product[] = [
     name: "Red Bell Pepper",
     price: 1.29,
     originalPrice: 1.79,
-    image: "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+    image: "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=1074&q=80",
     weight: "each",
     discount: 25,
   },
@@ -75,7 +75,7 @@ const saleProducts: Product[] = [
     name: "Yellow Onions",
     price: 1.49,
     originalPrice: 1.99,
-    image: "https://images.unsplash.com/photo-1618512497774-1e636282a772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+    image: "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=1074&q=80",
     weight: "3 lb bag",
     discount: 25,
   },
@@ -84,7 +84,7 @@ const saleProducts: Product[] = [
     name: "Ice Cream",
     price: 4.49,
     originalPrice: 5.99,
-    image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80",
+    image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=627&q=80",
     weight: "1 pt",
     discount: 30,
   },
@@ -93,7 +93,7 @@ const saleProducts: Product[] = [
     name: "Orange Juice",
     price: 3.49,
     originalPrice: 4.29,
-    image: "https://images.unsplash.com/photo-1627485297271-f789633b4cad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    image: "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=687&q=80",
     weight: "52 fl oz",
     discount: 20,
   },
@@ -102,7 +102,7 @@ const saleProducts: Product[] = [
     name: "Potato Chips",
     price: 2.49,
     originalPrice: 3.29,
-    image: "https://images.unsplash.com/photo-1621447504864-d8686e12698c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    image: "https://images.unsplash.com/photo-1621447504864-d8686e12698c?auto=format&fit=crop&w=1170&q=80",
     weight: "8 oz",
     discount: 25,
   },
@@ -111,7 +111,7 @@ const saleProducts: Product[] = [
     name: "Ground Coffee",
     price: 7.99,
     originalPrice: 9.99,
-    image: "https://images.unsplash.com/photo-1614350292382-c448d0110dfa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    image: "https://images.unsplash.com/photo-1614350292382-c448d0110dfa?auto=format&fit=crop&w=1170&q=80",
     weight: "12 oz",
     discount: 20,
   },
@@ -184,7 +184,7 @@ const Index = () => {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <Header onCartClick={() => setIsCartOpen(true)} />
+      <Header onCartClick={() => setIsCartOpen(true)} cartCount={cartItems.reduce((sum, item) => sum + item.quantity, 0)} />
       
       <main className="flex-grow">
         <Hero />

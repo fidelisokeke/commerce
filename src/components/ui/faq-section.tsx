@@ -9,19 +9,19 @@ import {
 
 const faqItems = [
   {
-    question: "How does Instacart delivery work?",
-    answer: "Instacart connects you with personal shoppers who pick up and deliver your order from local stores. You can choose delivery within hours or schedule days in advance. Our shoppers pick the freshest items and deliver them to your door."
+    question: "How does Shoply delivery work?",
+    answer: "Shoply connects you with personal shoppers who pick up and deliver your order from local stores. You can choose delivery within hours or schedule days in advance. Our shoppers pick the freshest items and deliver them to your door."
   },
   {
-    question: "How much does Instacart delivery cost?",
-    answer: "Delivery fees start at $3.99 for same-day orders over $35. Fees vary for one-hour deliveries, club store deliveries, and deliveries under $35. Service fees may apply. Consider signing up for Instacart+ for free delivery on orders over $35."
+    question: "How much does Shoply delivery cost?",
+    answer: "Delivery fees start at $3.99 for same-day orders over $35. Fees vary for one-hour deliveries, club store deliveries, and deliveries under $35. Service fees may apply. Consider signing up for Shoply+ for free delivery on orders over $35."
   },
   {
-    question: "What stores can I order from using Instacart?",
+    question: "What stores can I order from using Shoply?",
     answer: "You can shop from a wide variety of local grocery and retail stores including Costco, Kroger, Albertsons, Sprouts, Target, Whole Foods, and many more. Available stores vary by location."
   },
   {
-    question: "Do I need to be home for an Instacart delivery?",
+    question: "Do I need to be home for a Shoply delivery?",
     answer: "No, you don't need to be home. During checkout, you can choose 'Leave at my door' as your delivery preference. Your shopper will leave your order at your doorstep at the delivery time you selected."
   },
   {

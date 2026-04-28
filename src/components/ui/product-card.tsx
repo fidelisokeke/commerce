@@ -22,7 +22,7 @@ const ProductCard = ({ product, onAddToCart }: ProductCardProps) => {
   const { name, price, originalPrice, image, weight, discount } = product;
 
   return (
-    <div className="product-card h-full flex flex-col">
+    <div className="product-card h-full flex flex-col cursor-pointer" onClick={() => onAddToCart(product)}>
       <div className="relative">
         {discount && (
           <div className="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">
@@ -51,7 +51,7 @@ const ProductCard = ({ product, onAddToCart }: ProductCardProps) => {
         </div>
         <h3 className="text-sm font-medium text-gray-800 flex-grow">{name}</h3>
         <Button
-          onClick={() => onAddToCart(product)}
+          onClick={(e) => { e.stopPropagation(); onAddToCart(product); }}
           className="mt-3 w-full bg-white hover:bg-gray-50 border border-gray-200 text-instacart-green hover:border-instacart-green flex items-center justify-center h-9"
           variant="outline"
         >

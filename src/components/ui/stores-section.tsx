@@ -16,7 +16,7 @@ const stores: Store[] = [
   {
     id: 1,
     name: "Costco",
-    logo: "https://images.unsplash.com/photo-1622037022021-65fb547c659f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+    logo: "https://images.unsplash.com/photo-1534723452862-4c874018d66d?auto=format&fit=crop&w=400&q=80",
     discount: "Save up to 30%",
     deliveryTime: "Within 2 hours",
     category: "Wholesale",
@@ -24,7 +24,7 @@ const stores: Store[] = [
   {
     id: 2,
     name: "Kroger",
-    logo: "https://images.unsplash.com/photo-1607349913338-fca8f4950961?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+    logo: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=400&q=80",
     discount: "Save up to 15%",
     deliveryTime: "Within 1 hour",
     category: "Grocery",
@@ -32,7 +32,7 @@ const stores: Store[] = [
   {
     id: 3,
     name: "Whole Foods",
-    logo: "https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+    logo: "https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?auto=format&fit=crop&w=400&q=80",
     discount: "Save up to 10%",
     deliveryTime: "Within 1 hour",
     category: "Health Foods",
@@ -40,7 +40,7 @@ const stores: Store[] = [
   {
     id: 4,
     name: "Target",
-    logo: "https://images.unsplash.com/photo-1575663620136-5ebbfcc2c597?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+    logo: "https://images.unsplash.com/photo-1575663620136-5ebbfcc2c597?auto=format&fit=crop&w=400&q=80",
     deliveryTime: "Within 2 hours",
     category: "General Merchandise",
   },

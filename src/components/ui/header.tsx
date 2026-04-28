@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { ShoppingCart, Search } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
-const Header = ({ onCartClick }: { onCartClick: () => void }) => {
+const Header = ({ onCartClick, cartCount }: { onCartClick: () => void; cartCount: number }) => {
   const isMobile = useIsMobile();
   const [isSearchFocused, setIsSearchFocused] = useState(false);
   
@@ -53,7 +53,7 @@ const Header = ({ onCartClick }: { onCartClick: () => void }) => {
             >
               <ShoppingCart className="h-5 w-5" />
               <span className="absolute -top-2 -right-2 bg-instacart-green text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
-                0
+                {cartCount}
               </span>
             </Button>
           </div>

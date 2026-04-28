@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold mb-4">Instacart</h3>
+            <h3 className="font-bold mb-4">Shoply</h3>
             <ul className="space-y-2 text-sm">
               <li><a href="#" className="text-gray-600 hover:text-instacart-green">About us</a></li>
               <li><a href="#" className="text-gray-600 hover:text-instacart-green">Careers</a></li>
@@ -23,7 +23,7 @@ const Footer = () => {
               <li><a href="#" className="text-gray-600 hover:text-instacart-green">Shopper opportunities</a></li>
               <li><a href="#" className="text-gray-600 hover:text-instacart-green">Become a partner</a></li>
               <li><a href="#" className="text-gray-600 hover:text-instacart-green">Retail locations</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-instacart-green">Instacart ads</a></li>
+              <li><a href="#" className="text-gray-600 hover:text-instacart-green">Shoply ads</a></li>
             </ul>
           </div>
           
@@ -53,7 +53,7 @@ const Footer = () => {
         <div className="mt-12 pt-6 border-t">
           <div className="flex flex-col md:flex-row md:justify-between items-center">
             <p className="text-gray-500 text-sm mb-4 md:mb-0">
-              © 2023 Instacart Clone. All rights reserved.
+              © 2026 Shoply. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-500 hover:text-instacart-green text-sm">Terms of Service</a>

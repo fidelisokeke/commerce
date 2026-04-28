@@ -50,7 +50,7 @@ const Hero = () => {
           <div className="md:w-1/2 relative">
             <div className="rounded-2xl overflow-hidden shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1974&q=80"
                 alt="Fresh groceries being delivered"
                 className="w-full h-auto object-cover"
               />
